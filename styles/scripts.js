@@ -5,6 +5,7 @@ let size = 16;
 grid.addEventListener("mouseover", (e) => {rando =  Math.floor(Math.random()*16777215).toString(16); e.target.style.backgroundColor = "#" + rando;});
 
 sizebtn.addEventListener("click", ccss);
+
 erase.addEventListener("click", eerr);
 
 function ccss()
