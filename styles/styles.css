@@ -7,15 +7,29 @@
     display: grid;
     width: 800px;
     height: 800px;
-
+    margin-top: 40px;
+    background-color: white;
 }
 
 body {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(132, 211, 238);
 }
 
-#erase, #sizebtn {
-    width: 100px;
-    height: 100px;
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: lightcyan;
+}
+
+#butdiv 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }

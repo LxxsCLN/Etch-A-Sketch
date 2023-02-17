@@ -1,5 +1,4 @@
 let grid = document.getElementById("grid");
-let erase = document.getElementById("erase");
 let size = 16;
 
 grid.addEventListener("mouseover", (e) => {rando =  Math.floor(Math.random()*16777215).toString(16); e.target.style.backgroundColor = "#" + rando;});
