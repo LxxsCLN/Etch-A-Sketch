@@ -11,7 +11,12 @@ erase.addEventListener("click", eerr);
 function ccss()
 {
     size = prompt("Choose size"); 
+    while (size < 1 || size > 100)
+    {
+        size = prompt("Please enter a number between 1 and 100");
+    }
     createGrid(size);
+   
 }
 
 function eerr()
