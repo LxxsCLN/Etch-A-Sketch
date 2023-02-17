@@ -7,15 +7,40 @@
     display: grid;
     width: 800px;
     height: 800px;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: white;
 }
 
 body {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    flex-direction: column;
     background-color: rgb(132, 211, 238);
+}
+
+#butdiv 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 35px;
+}
+
+#bodydiv {
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+#titlediv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button {
@@ -24,12 +49,4 @@ button {
     border-radius: 10px;
     font-size: large;
     background-color: lightcyan;
-}
-
-#butdiv 
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
 }
