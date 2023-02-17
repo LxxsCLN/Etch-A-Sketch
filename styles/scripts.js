@@ -11,10 +11,15 @@ erase.addEventListener("click", eerr);
 function ccss()
 {
     size = prompt("Choose size"); 
-    while (size < 1 || size > 100)
+    while (size < 1 || size > 100 || isNaN(size) || size % 1 !== 0)
     {
-        size = prompt("Please enter a number between 1 and 100");
-    }
+        if (size === null)
+        {
+            return;
+        }
+        else {
+        size = prompt("Please enter a whole number between 1 and 100");
+    }}
     createGrid(size);
    
 }
